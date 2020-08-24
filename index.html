@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es-AR" data-dark>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaC Clase 4</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/clase4.css">
+   
+</head>
+<body data-dark>
+    <header class="cabecera">
+        <h1>Codo a Codo Comision 2011 Clase 04</h1>
+    </header>
+    <nav class="menu">
+        <ul class="menu-items">
+            <li><a href="#seccion1">
+                <i class="fas fa-list-ol"></i>
+                   Lista Ordenada</a></li>
+            <li><a href="#seccion2">
+                <i class="fas fa-stream"></i>
+                 Lista Desordenada</a></li>
+            <li><a href="#seccion3">
+                <i class="fas fa-table"></i>
+                 Tabla</a></li>
+            <li><a href="#seccion4">
+                <i class="fab fa-wpforms"></i>
+                 Formulario</a></li>
+            <li><a href="#seccion5">
+                <i class="far fa-images"></i>
+                 Imagenes</a></li>
+            <li><a href="#seccion6">
+                <i class="fas fa-map-marker-alt"></i>
+                     IFrame (GeoLocalizacion)</a></li>   
+            <button class="dark-theme-btn">
+                    🌙
+                 </button>    
+        </ul>
+    </nav>
+    <main>
+        <section id="seccion1" class="seccion">
+            <h2>Lista Ordenada</h2>
+            <h3>Dias de la Semana</h3>
+            <article>
+                <ol class="lista" type="I">
+                    <li>Domingo</li>
+                    <li>Lunes</li>
+                    <li>Martes</li>
+                    <li>Miercoles</li>
+                    <li>Jueves</li>
+                    <li>Sabado</li>
+                    <li>Domingo</li>
+                </ol>
+            </article>
+        </section>
+        <section id="seccion2" class="seccion">
+            <h2>Lista Desordenada</h2>
+            <h3>Lenguajes de Programacion</h3>
+            <article>
+                <br>
+                <ul class="lista">
+                    <li>JAVA</li>
+                    <li>PYTHON</li>
+                    <li>C++</li>
+                    <li>PHP</li>
+                    <li>OBECTIVE C</li>
+                </ul>
+            </article>
+        </section>
+        <section id="seccion3" class="seccion">
+            <article>
+                <h2>Tabla</h2>
+                <h3>Tecnologias Full Stack</h3>
+                <table>
+                    <tr>
+                        <td rowspan="3">Front-End</td>
+                        <td>HTML 5</td>
+                    </tr>
+                    <tr>
+                        <td>CSS 3</td>
+                    </tr>
+                    <tr>
+                        <td>Javascript 6</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4">Back-End</td>
+                        <td>JAVA</td>
+                    </tr>
+                    <tr>
+                        <td>PHP</td>
+                    </tr>
+                    <tr>
+                        <td>PYHTON</td>
+                    </tr>
+                    <tr>
+                        <td>NODE JS</td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+        <section id="seccion4" class="seccion">
+            <h2>Formulario</h2>
+            <h3>Formulario Registro</h3>
+            <article>
+                <div class="registro">
+                    <form action="">
+                        <label for="usuario"><i class="fas fa-user"></i></label>
+                        <input type="text" placeholder="Nombre Usuario..." required> <br><br>
+                        <label for="password"><i class="fas fa-unlock-alt"></i></label>
+                        <input type="password" placeholder="Password.." required> <br><br>
+                        <label for="email"><i class="fas fa-at"></i></label>
+                        <input type="email" placeholder="email..." required> <br><br>
+                        <button>Enviar</button>
+                   </form>
+                </div>
+            </article>
+        </section>
+        <section id="seccion5" class="seccion">
+            <h2>Imagenes</h2>
+            <input type="search" placeholder="Buscar..." class="card-filter">
+            <article>
+                <article class="cards">
+                    <figure class="card">
+                        <img src="https://placeimg.com/200/200/nature" alt="Nature">
+                        <figcaption>Nature</figcaption>
+                    </figure>
+                    <figure class="card">
+                        <img src="https://placeimg.com/200/200/any" alt="Any">
+                        <figcaption>Any</figcaption>
+                    </figure>
+                    <figure class="card">
+                        <img src="https://placeimg.com/200/200/tech" alt="Tech">
+                        <figcaption>Tech</figcaption>
+                    </figure>
+                    <figure class="card">
+                        <img src="https://placeimg.com/200/200/animals" alt="Animals">
+                        <figcaption>Animals</figcaption>
+                    </figure>
+                    <figure class="card">
+                        <img src="https://placeimg.com/200/200/people" alt="People">
+                        <figcaption>People</figcaption>
+                    </figure>
+                    <figure class="card">
+                        <img src="https://placeimg.com/200/200/arch" alt="Architecture">
+                        <figcaption>Architecture</figcaption>
+                    </figure>
+            </article>
+        </section>
+        <section id="seccion6" class="seccion">
+            <h2>IFrame (GeoLocalizacion)</h2>
+            <article id="geolocation">
+            </article>
+        </section>
+    </main>
+    <button class="scroll-top-btn hidden">&#11014;</button>
+    <script src="/js/index.js"></script>
+    </body>
+</html>
